@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisualNovel_Programming</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .item {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .item h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>VisualNovel_Programming</h1>
+    <div class="container">
+        <div class="item">
+            <img src="game1.png">
+            <img src="game2.png">
+            <img src="game3.png">
+            <img src="game4.png">
+            <p><strong>概要:</strong> 制作時間は訳80時間。pythonを用いたゲームを制作しました。</p>
+            <p><strong>内容:</strong> 選択肢を選んでヒロインを攻略するノベルゲームです。選択肢によっては、変数やリンクを用いた分岐が行われ、別のルートへ行けます。エンドも複数あるので、ぜひ複数回プレイしてみてください。</p>
+            <p><strong>使用方法:</strong> まず以下のリンクをクリックし,zipファイルをダウンロードしてください。解凍後、exeファイルを実行してホーム画面へ飛びます。スタートを押す事でゲーム開始。画面をクリックすることで、ストーリーを進めることができます。選択肢が出てきたらどれかをクリックすることで、進みます。選択肢によっては重要な分かれ道となるので、慎重に選んでください。</p>
+            <a href="https://drive.google.com/file/d/1fa-zIBGWJvU4tF8ZSyFVvcl-LO1dUrQg/view?usp=sharing" target="_blank">ゲームファイルをダウンロード</a>
+            <p><strong>制作者のコメント:</strong>
+                まず、画像の扱いが難しかったです。表情差分の管理（個別の画像か、一つのキャラの差分として扱うのか）や、画像のサイズ変更（定義の時点で変更したい）など、とくに難しかったです。
+                キャラの配置に苦戦しました。キャラクターのトリミングや明るさ調整などがうまく動作しなく、定義の順番の理解に時間がかかりました。
+                次に、UI・システム面の調整に苦戦しました。クイックロード後に背景やキャラの表示が崩れる問題。スクリプトの分岐処理が難しかったです。
+                最後にpythonの変数変更が、分岐によって繰り返し回ってきたときにバグが起こらないように、工夫しました。複数のエフェクトを同時に適用する方法についてかなり工夫を強いられたので、とても難しかったです。
+            </p>
+
+        </div>
+    </div>
+</body>
+</html>
